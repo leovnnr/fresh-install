@@ -1,0 +1,83 @@
+# ==============================================================================
+# Brewfile — Réinstallation macOS
+# Usage : brew bundle install --file=Brewfile
+# ==============================================================================
+
+# --- Sécurité & Confidentialité ---
+cask "1password"
+cask "cryptomator"
+cask "lulu"
+cask "mullvad-vpn"
+cask "tailscale"
+
+# --- Navigateurs ---
+cask "brave-browser"
+cask "google-chrome"
+cask "librewolf"
+
+# --- Productivité & Organisation ---
+cask "alfred"
+cask "bettertouchtool"
+cask "cardhop"
+cask "chatgpt"
+cask "claude"
+cask "fantastical"
+cask "keepingyouawake"
+cask "notion"
+cask "obsidian"
+cask "rectangle"
+cask "todoist"
+cask "tomatobar"
+cask "tot"
+
+# --- Communication ---
+cask "discord"
+cask "spark-desktop"
+cask "teamviewer"
+cask "textual"
+cask "zoom"
+
+# --- Développement ---
+cask "filezilla"
+cask "visual-studio-code"
+cask "warp"
+
+# --- Médias ---
+cask "audio-hijack"
+cask "calibre"
+cask "iina"
+Cask "iptvnator"
+cask "mediainfo"
+cask "plex"
+cask "spotify"
+cask "vlc"
+
+# --- Fichiers & Utilitaires ---
+cask "appcleaner"
+cask "bettertouchtool"
+cask "cleanshot"
+cask "dropbox"
+cask "hazel"
+cask "hookmark"
+cask "keka"
+cask "maccy"
+cask "pdfgear"
+cask "qbittorrent"
+cask "qspace-pro"
+cask "sip"
+cask "thaw"
+
+# --- Finance & Trading ---
+cask "tradingview"
+
+# --- Microsoft Office ---
+cask "microsoft-excel"
+cask "microsoft-outlook"
+cask "microsoft-powerpoint"
+cask "microsoft-teams"
+cask "microsoft-word"
+cask "onedrive"
+
+# --- Gaming ---
+cask "steam"
+
