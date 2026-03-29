@@ -3,6 +3,13 @@
 # Usage : brew bundle install --file=Brewfile
 # ==============================================================================
 
+# --- Dépendances ---
+brew "mas"
+brew "git"
+brew "curl"
+mas "Xcode", id: 497799835
+cask "macfuse"
+
 # --- Sécurité & Confidentialité ---
 cask "1password"
 cask "cryptomator"
