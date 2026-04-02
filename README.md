@@ -1,4 +1,4 @@
 # Fresh macOS install
 
-### Une seule commande à taper sur une nouvelle machine :
+##### Une seule commande à taper sur une nouvelle machine :
 curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh | zsh
