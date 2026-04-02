@@ -1,7 +1,8 @@
 # Fresh macOS install
 
-#### Une seule commande à taper sur une nouvelle machine :
+#### À taper sur une nouvelle machine :
 
-`curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh | zsh`
+`xcode-select --install
+sudo curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh | zsh`
 
 Puis importer _bookmarks-librewolf.json_ dans Librewolf.
