@@ -7,8 +7,8 @@
 brew "mas"
 brew "git"
 brew "curl"
-mas "Xcode", id: 497799835
 cask "macfuse"
+mas "Xcode", id: 497799835
 
 # --- Sécurité & Confidentialité ---
 cask "1password"
