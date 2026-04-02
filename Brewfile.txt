@@ -64,6 +64,7 @@ brew "tree"                     # arborescence dossiers
 brew "wget"                     # complément curl
 brew "pyenv"                    # gestion versions Python
 brew "nvm"                      # gestion versions Node
+brew "gh"                       # CLI Github
 brew "lazygit"                  # UI Git dans le terminal
 brew "delta"                    # remplace le diff de Git
 
