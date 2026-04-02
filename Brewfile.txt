@@ -32,7 +32,6 @@ cask "fantastical"
 cask "keepingyouawake"
 cask "notion"
 cask "obsidian"
-cask "rectangle"
 cask "todoist"
 cask "tomatobar"
 cask "tot"
@@ -45,15 +44,34 @@ cask "textual"
 cask "zoom"
 
 # --- Développement ---
-cask "filezilla"
 cask "visual-studio-code"
 cask "warp"
+
+# --- Terminal ---
+brew "starship"                 # prompt
+brew "zsh-autosuggestions"      # suggestions historique
+brew "zsh-syntax-highlighting"  # coloration syntaxique
+brew "zsh-completions"          # complétions étendues
+brew "zoxide"                   # remplace `cd`
+brew "eza"                      # remplace `ls`
+brew "bat"                      # remplace `cat`
+brew "fd"                       # remplace `find`
+brew "ripgrep"                  # remplace `grep`
+brew "jq"                       # manipulation JSON
+brew "tldr"                     # man pages simplifiées
+brew "htop"                     # monitoring process
+brew "tree"                     # arborescence dossiers
+brew "wget"                     # complément curl
+brew "pyenv"                    # gestion versions Python
+brew "nvm"                      # gestion versions Node
+brew "lazygit"                  # UI Git dans le terminal
+brew "delta"                    # remplace le diff de Git
 
 # --- Médias ---
 cask "audio-hijack"
 cask "calibre"
 cask "iina"
-Cask "iptvnator"
+cask "iptvnator"
 cask "mediainfo"
 cask "plex"
 cask "spotify"
@@ -61,9 +79,9 @@ cask "vlc"
 
 # --- Fichiers & Utilitaires ---
 cask "appcleaner"
-cask "bettertouchtool"
 cask "cleanshot"
 cask "dropbox"
+cask "filezilla"
 cask "hazel"
 cask "hookmark"
 cask "keka"
@@ -71,7 +89,7 @@ cask "maccy"
 cask "pdfgear"
 cask "qbittorrent"
 cask "qspace-pro"
-cask "sip"
+cask "pika"
 cask "thaw"
 
 # --- Finance & Trading ---
