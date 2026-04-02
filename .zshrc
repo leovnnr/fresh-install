@@ -22,6 +22,13 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 fpath+=$(brew --prefix)/share/zsh-completions
 autoload -Uz compinit && compinit
 
+# ------------------------------------------------------------------------------
+# Fix compatibilité Ghostty en SSH
+# ------------------------------------------------------------------------------
+if [[ -n "$SSH_CONNECTION" ]]; then
+  export TERM=xterm-256color
+fi
+
 
 # ------------------------------------------------------------------------------
 # zoxide — remplace cd
