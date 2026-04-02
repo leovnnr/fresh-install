@@ -52,6 +52,7 @@ brew "starship"                 # prompt
 brew "zsh-autosuggestions"      # suggestions historique
 brew "zsh-syntax-highlighting"  # coloration syntaxique
 brew "zsh-completions"          # complétions étendues
+brew "topgrade"                 # mises à jour globales
 brew "zoxide"                   # remplace `cd`
 brew "eza"                      # remplace `ls`
 brew "bat"                      # remplace `cat`
