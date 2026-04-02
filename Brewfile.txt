@@ -39,7 +39,7 @@ cask "tomatobar"
 
 # --- Communication ---
 cask "discord"
-cask "spark-desktop"
+cask "readdle-spark"
 cask "teamviewer"
 cask "textual"
 cask "zoom"
