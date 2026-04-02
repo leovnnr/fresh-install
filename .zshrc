@@ -82,6 +82,8 @@ alias ip="curl ifconfig.me"                          # IP publique
 alias localip="ipconfig getifaddr en0"               # IP locale
 alias ssh1="ssh leo@192.168.1.27"                    # Ubuntu — réseau local
 alias ssh2="ssh leo@100.120.245.29"                  # Ubuntu — Tailscale
+eros='ssh eov1@46.232.211.120'                       # Ultra.cc - Eros
+gizmo='ssh eov1@216.163.184.185'                     # Ultra.cc - Gizmo
 
 # Système
 alias reload="source ~/.zshrc"
