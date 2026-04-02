@@ -1,0 +1,12 @@
+# ==============================================================================
+# ~/.config/ghostty/config — Configuration Ghostty
+# Copié automatiquement par install.sh
+# ==============================================================================
+
+font-family = MesloLGS Nerd Font Mono
+font-size = 16
+background-opacity = 0.9
+theme = Tokyo Night
+
+# Correction compatibilité SSH (certains serveurs ne connaissent pas xterm-ghostty)
+# → géré dans .zshrc via la variable TERM conditionnelle

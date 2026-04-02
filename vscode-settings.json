@@ -1,0 +1,44 @@
+{
+  // ===========================================================================
+  // VSCode — settings.json
+  // Copié automatiquement par install.sh vers ~/Library/Application Support/Code/User/
+  // ===========================================================================
+
+  // Thème
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Police — cohérence avec Ghostty et Starship
+  "editor.fontFamily": "MesloLGS Nerd Font Mono, Menlo, Monaco, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+
+  // Éditeur
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+
+  // Terminal intégré — cohérence avec Ghostty
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+  "terminal.integrated.fontSize": 14,
+
+  // Interface
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": true,
+
+  // Fichiers
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Git
+  "git.autofetch": true,
+  "git.confirmSync": false
+}
