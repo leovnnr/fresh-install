@@ -82,6 +82,7 @@ cask "vlc"
 # --- Fichiers & Utilitaires ---
 cask "appcleaner"
 cask "cleanshot"
+cask "cork"
 cask "dropbox"
 cask "filezilla"
 cask "hazel"
