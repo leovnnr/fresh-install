@@ -44,11 +44,12 @@ cask "textual"
 cask "zoom"
 
 # --- Développement ---
+cask "ghostty"
 cask "visual-studio-code"
-cask "warp"
 
 # --- Terminal ---
 brew "starship"                 # prompt
+brew "font-meslo-lg-nerd-font"  # police
 brew "zsh-autosuggestions"      # suggestions historique
 brew "zsh-syntax-highlighting"  # coloration syntaxique
 brew "zsh-completions"          # complétions étendues
