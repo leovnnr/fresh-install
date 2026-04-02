@@ -79,7 +79,7 @@ alias ssh2="ssh leo@100.120.245.29"                  # Ubuntu — Tailscale
 # Système
 alias reload="source ~/.zshrc"
 alias zshrc="$EDITOR ~/.zshrc"
-alias brewup="brew update && brew upgrade && brew cleanup"
+alias up="topgrade"
 alias top="htop"
 
 # Utilitaires
