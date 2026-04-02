@@ -2,7 +2,8 @@
 
 #### À taper sur une nouvelle machine :
 
-`xcode-select --install
-sudo curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh | zsh`
+`xcode-select --install`
+
+`sudo curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh -o /tmp/bootstrap.sh && zsh /tmp/bootstrap.sh`
 
 Puis importer _bookmarks-librewolf.json_ dans Librewolf.
