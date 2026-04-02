@@ -3,15 +3,7 @@
 # install.sh — Fresh install macOS
 # Usage : zsh install.sh
 #
-# Prérequis manuels AVANT de lancer ce script :
-#   1. Installer Homebrew :
-#      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#   2. Installer gh et s'authentifier :
-#      brew install gh && gh auth login
-#   3. Cloner le repo :
-#      git clone https://github.com/leovnnr/fresh-install.git ~/fresh-install
-#   4. Lancer ce script :
-#      zsh ~/fresh-install/install.sh
+# Appelé automatiquement par bootstrap.sh
 # ==============================================================================
 
 set -e  # stopper en cas d'erreur
