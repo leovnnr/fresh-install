@@ -91,11 +91,11 @@ cask "hazel"
 cask "hookmark"
 cask "keka"
 cask "maccy"
-cask "pdfgear"
 cask "qbittorrent"
 cask "qspace-pro"
 cask "pika"
 cask "thaw"
+cask "updf"
 
 # --- Finance & Trading ---
 cask "tradingview"
