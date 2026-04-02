@@ -32,10 +32,10 @@ cask "fantastical"
 cask "keepingyouawake"
 cask "notion"
 cask "obsidian"
+cask "sidenotes"
 cask "soulver"
 cask "todoist"
 cask "tomatobar"
-cask "tot"
 
 # --- Communication ---
 cask "discord"
