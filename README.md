@@ -4,4 +4,4 @@
 
 `curl -fsSL https://raw.githubusercontent.com/leovnnr/fresh-install/main/bootstrap.sh | zsh`
 
-Puis importer bookmarks-librewolf.json dans Librewolf.
+Puis importer _bookmarks-librewolf.json_ dans Librewolf.
