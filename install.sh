@@ -6,7 +6,6 @@
 # Appelé automatiquement par bootstrap.sh
 # ==============================================================================
 
-tap "homebrew/cask-fonts"
 set -e  # stopper en cas d'erreur
 
 REPO="$HOME/fresh-install"
