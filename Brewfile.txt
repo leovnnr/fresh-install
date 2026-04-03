@@ -50,7 +50,7 @@ cask "visual-studio-code"
 
 # --- Terminal ---
 brew "starship"                 # prompt
-brew "font-meslo-lg-nerd-font"  # police
+cask "font-meslo-lg-nerd-font"  # police
 brew "zsh-autosuggestions"      # suggestions historique
 brew "zsh-syntax-highlighting"  # coloration syntaxique
 brew "zsh-completions"          # complétions étendues
