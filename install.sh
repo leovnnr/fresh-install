@@ -33,7 +33,7 @@ echo ""
 echo "→ Installation des apps via Brewfile..."
 echo "  (cette étape peut prendre 20-40 minutes)"
 echo ""
-brew bundle install --file="$BREWFILE"
+brew bundle install --file="$BREWFILE" || true
 echo ""
 echo "✓ Brewfile terminé"
 
