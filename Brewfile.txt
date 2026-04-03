@@ -15,7 +15,7 @@ cask "1password"
 cask "cryptomator"
 cask "lulu"
 cask "mullvad-vpn"
-cask "tailscale"
+cask "tailscale-app"
 
 # --- Navigateurs ---
 cask "brave-browser"
@@ -34,7 +34,7 @@ cask "notion"
 cask "obsidian"
 cask "sidenotes"
 cask "soulver"
-cask "todoist"
+cask "todoist-app"
 cask "tomatobar"
 
 # --- Communication ---
