@@ -54,15 +54,18 @@ cask "font-meslo-lg-nerd-font"  # police
 brew "zsh-autosuggestions"      # suggestions historique
 brew "zsh-syntax-highlighting"  # coloration syntaxique
 brew "zsh-completions"          # complétions étendues
+brew "fzf"                      # recherche fuzzy
 brew "topgrade"                 # mises à jour globales
 brew "zoxide"                   # remplace `cd`
 brew "eza"                      # remplace `ls`
 brew "bat"                      # remplace `cat`
 brew "fd"                       # remplace `find`
 brew "ripgrep"                  # remplace `grep`
+brew "dust"                     # remplace `du`
+brew "tmux"                     # multiplexeur
 brew "jq"                       # manipulation JSON
 brew "tldr"                     # man pages simplifiées
-brew "htop"                     # monitoring process
+brew "btop"                     # monitoring process
 brew "tree"                     # arborescence dossiers
 brew "wget"                     # complément curl
 brew "pyenv"                    # gestion versions Python
