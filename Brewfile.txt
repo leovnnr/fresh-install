@@ -15,6 +15,7 @@ cask "1password"
 cask "cryptomator"
 cask "lulu"
 cask "mullvad-vpn"
+cask "oversight"
 cask "tailscale-app"
 
 # --- Navigateurs ---
