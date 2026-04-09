@@ -9,6 +9,12 @@
 
 
 # ------------------------------------------------------------------------------
+# PATH — priorité aux binaires Homebrew (Apple Silicon)
+# ------------------------------------------------------------------------------
+export PATH="/opt/homebrew/bin:$PATH"
+
+
+# ------------------------------------------------------------------------------
 # Starship — prompt
 # ------------------------------------------------------------------------------
 eval "$(starship init zsh)"
@@ -21,6 +27,7 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fpath+=$(brew --prefix)/share/zsh-completions
 autoload -Uz compinit && compinit
+
 
 # ------------------------------------------------------------------------------
 # Fix compatibilité Ghostty en SSH
@@ -122,9 +129,3 @@ setopt CORRECT                # suggestion si commande mal orthographiée
 export EDITOR="code"          # VSCode comme éditeur par défaut
 export LANG="fr_FR.UTF-8"
 export LC_ALL="fr_FR.UTF-8"
-
-
-# ------------------------------------------------------------------------------
-# PATH — priorité aux binaires Homebrew (Apple Silicon)
-# ------------------------------------------------------------------------------
-export PATH="/opt/homebrew/bin:$PATH"
