@@ -62,6 +62,7 @@ brew "fd"                       # remplace `find`
 brew "ripgrep"                  # remplace `grep`
 brew "dust"                     # remplace `du`
 brew "tmux"                     # multiplexeur
+brew "nano"                     # éditeur de texte
 brew "jq"                       # manipulation JSON
 brew "tldr"                     # man pages simplifiées
 brew "btop"                     # monitoring process
